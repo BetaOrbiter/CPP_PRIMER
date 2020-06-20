@@ -1,6 +1,5 @@
-#include "Sales_item.h"
+#include "../data/Sales_item.h"
 #include <iostream>
-#include <Windows.h>
 int main(void)
 {
 	Sales_item book;
@@ -10,7 +9,7 @@ int main(void)
 		while (std::cin >> trans)
 		{
 			if (book.isbn() == trans.isbn())
-				++trans;
+				book+=trans;
 			else
 			{
 				std::cout << book << std::endl;
@@ -22,9 +21,7 @@ int main(void)
 	else
 	{
 		std::cout << "No input!" << std::endl;
-		system("Pause");
 		return -1;
 	}
-	system("Pause");
 	return 0;
 }
