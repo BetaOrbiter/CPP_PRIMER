@@ -1,8 +1,7 @@
 ﻿#include<iostream>
 int main(void){
-    int i=50;
-    while(i<=100){
-        std::cout << i++;
-    }
+    int i=50,result=0;
+    while(i<=100)
+        result+=i++;
     return 0;
 }

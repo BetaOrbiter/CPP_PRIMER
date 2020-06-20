@@ -2,7 +2,7 @@
 
 > 查阅你使用的编译器的文档，确定它所使用的文件命名约定。编译并允许第2页的main程序
 * [为 Visual C++ 项目创建的文件类型](https://docs.microsoft.com/zh-cn/cpp/build/reference/file-types-created-for-visual-cpp-projects?view=vs-2019)
-*[Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
+* [Using GCC with MinGW](https://code.visualstudio.com/docs/cpp/config-mingw)
 
 ## 练习1.2
 
@@ -93,7 +93,7 @@ std::cout << /* "*/" /* "/*" */;
 第三行出错，改为
 ```c++
 std::cout << /* "*/" */";
-
+```
 ## [练习1.9](9：while.cpp)
 
 > 编写程序，使用while循环将50到100的整数相加。
