@@ -3,10 +3,10 @@
 
 int main(void)
 {
-	int currval, val;//µ±Ç°Öµ£¬ÐÂÖµ
+	int currval, val;//å½“å‰å€¼ï¼Œæ–°å€¼
 	if (std::cin >> currval)
 	{
-		int count = 1;//µ±Ç°Í³¼ÆÊýµÄ¸öÊý
+		int count = 1;//å½“å‰ç»Ÿè®¡æ•°çš„ä¸ªæ•°
 		while (std::cin >> val)
 		{
 			if (val == currval)

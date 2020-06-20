@@ -120,3 +120,33 @@ for (int i = -100; i <= 100; ++i)
 ## [练习1.13](13：for.cpp)
 
 > 使用for循环重做1.4.1节中的所有练习（第11页）。
+
+## 练习1.14
+
+> 对比for循环和while循环，两种形式的优缺点各是什么？
+
+for较长较复杂，但访问范围时使用临时变量更加方便
+这里要感谢[Cpp_Primer_Answers](https://github.com/huangmingchuan/Cpp_Primer_Answers)指出["在Stack Overflow上面有与这个相似的问题"](http://stackoverflow.com/questions/2950931/for-vs-while-in-c-programming)
+
+## 练习1.15
+
+> 编写程序，包含第14页“再探编译”中讨论的常见错误。熟悉编译器生成的错误信息。
+
+常见的有语法错误、类型错误、声明错误。
+
+## [练习1.16](13：cin.cpp)
+
+> 编写程序，从cin读取一组数，输出其和。
+
+## [练习1.17](https://github.com/BetaOrbiter/CPP_PRIMER/blob/master/Chapter_01/exercse1_17.png)
+
+> 如果输入的所有值都是相等的，本节的程序会输出什么？如果没有重复值，输出又会是怎样的？
+
+## [练习1.18](17：重复数字计数.cpp)
+
+> 编译并运行本节的程序，给它输入全都相等的值。再次运行程序，输入没有重复的值。
+
+## [练习1.19](19：连续打印改.cpp)
+
+> 修改你为1.4.1节练习1.11（第11页）所编写的程序（打印一个范围内的数），使其能处理用户输入的第一个数比第二个数小的情况。
+
