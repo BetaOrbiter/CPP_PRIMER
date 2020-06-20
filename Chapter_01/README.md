@@ -7,7 +7,7 @@
 ## 练习1.2
 
 > 改写程序，让它返回-1。返回值-1通常被当作程序错误的标识。重新编译并运行你的程序，观察你的系统如何处理main返回的错误标识。
-! [windows](https://github.com/BetaOrbiter/CPP_PRIMER/blob/master/Chapter_01/exercse1_2.png)
+![windows](https://github.com/BetaOrbiter/CPP_PRIMER/blob/master/Chapter_01/exercise1_02.png)
 
 ## [练习1.3](3：Helloworld.cpp)
 
@@ -65,7 +65,6 @@ std::cout << "The sum of " << v1;
 ## 练习1.7
 
 > 编译一个包含不正确的嵌套注释的程序，观察编译器返回的错误信息。
-
 ```c++
 int main()
 {
@@ -77,7 +76,7 @@ int main()
 ```
 编译器错误信息：
 
-![编译器错误信息](https://github.com/BetaOrbiter/CPP_PRIMER/blob/master/Chapter_01/exercse1_7.png)
+![error message](https://github.com/BetaOrbiter/CPP_PRIMER/blob/master/Chapter_01/exercise1_07.png)
 
 ## 练习1.8
 
@@ -169,3 +168,5 @@ for较长较复杂，但访问范围时使用临时变量更加方便
 ## 练习1.24
 
 > 输入表示多个 ISBN 的多条销售记录来测试上一个程序，每个 ISBN 的记录应该聚在一起。
+
+![运行截图](https://github.com/BetaOrbiter/CPP_PRIMER/blob/master/Chapter_01/exercise1_24.png)
