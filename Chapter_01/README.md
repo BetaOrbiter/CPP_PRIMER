@@ -76,7 +76,11 @@ int main()
 ```
 编译器错误信息：
 
+<<<<<<< HEAD
 ![error message](https://github.com/BetaOrbiter/CPP_PRIMER/blob/master/Chapter_01/exercise1_07.png)
+=======
+![编译器错误信息](https://github.com/BetaOrbiter/CPP_PRIMER/blob/master/Chapter_01/exercse1_07.png)
+>>>>>>> a723f88f2c8b2e89e835b4bc81d98a2b1910b081
 
 ## 练习1.8
 
