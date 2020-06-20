@@ -7,7 +7,7 @@
 ## 练习1.2
 
 > 改写程序，让它返回-1。返回值-1通常被当作程序错误的标识。重新编译并运行你的程序，观察你的系统如何处理main返回的错误标识。
-! [windows](exersice1_2.png)
+! [windows](https://github.com/BetaOrbiter/CPP_PRIMER/blob/master/Chapter_01/exercse1_2.png)
 
 ## [练习1.3](3：Helloworld.cpp)
 
@@ -77,7 +77,7 @@ int main()
 ```
 编译器错误信息：
 
-![编译器错误信息](exercise1_7.png)
+![编译器错误信息](https://github.com/BetaOrbiter/CPP_PRIMER/blob/master/Chapter_01/exercse1_7.png)
 
 ## 练习1.8
 
