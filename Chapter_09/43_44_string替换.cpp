@@ -5,7 +5,7 @@
  * @Last Modified time: 2020-02-14 22:02:09
  */
 #include<string>
-#include<iostream>
+#include<iostream>  
 using std::string;
 void change_iterator(string &s,const string& oldVal,const string&newVal){
     auto ptr=s.begin();
