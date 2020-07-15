@@ -85,3 +85,34 @@ int main(void){
 
 > 标准库定义了名为 partition 的算法，它接受一个谓词，对容器内容进行划分，使得谓词为true 的值会排在容器的前半部分，而使得谓词为 false 的值会排在后半部分。算法返回一个迭代器，指向最后一个使谓词为 true 的元素之后的位置。编写函数，接受一个 string，返回一个 bool 值，指出 string 是否有5个或更多字符。使用此函数划分 words。打印出长度大于等于5的元素。
 
+## 练习10.14
+
+> 编写一个 lambda ，接受两个int，返回它们的和。
+
+```cpp
+auto [](int a,int b){return a+b;}
+```
+
+## 练习10.15
+
+> 编写一个 lambda ，捕获它所在函数的 int，并接受一个 int参数。lambda 应该返回捕获的 int 和 int 参数的和。
+
+```cpp
+auto lam = [a](int b) ->int {return 0; };
+```
+
+## [练习10.16](10_16.cpp)
+
+> 使用lambda编写你自己版本的biggies
+
+## [练习10.17](10_17.cpp)
+
+> 重写10.3.1节练习10.12的程序，在对sort的调用中使用 lambda 来代替函数 compareIsbn。
+
+## [练习10.18](10_18.cpp)
+
+> 重写 biggies，用 partition 代替 find_if。我们在10.3.1节练习10.13中介绍了 partition 算法。
+
+## [练习10.19](10_19.cpp)
+
+> 用 stable_partition 重写前一题的程序，与 stable_sort 类似，在划分后的序列中维持原有元素的顺序。
