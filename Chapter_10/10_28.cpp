@@ -13,10 +13,17 @@ int main(void){
     for(int i=1;i<=9;++i)
         vec.push_back(i);
     
+<<<<<<< HEAD
     std::copy(vec.cbegin(),vec.cend(),std::front_inserter(lst1));
     print(lst1);
 
     std::copy(vec.cbegin(),vec.cend(),std::back_inserter(lst2));
+=======
+    copy(vec.cbegin(),vec.cend(),std::front_inserter(lst1));
+    print(lst1);
+
+    copy(vec.cbegin(),vec.cend(),std::back_inserter(lst2));
+>>>>>>> da5c388e496b18eafdcc1befc71fffe59ca8cd93
     print(lst2);
     
     copy(vec.cbegin(),vec.cend(),std::inserter(lst3,lst3.begin()));
